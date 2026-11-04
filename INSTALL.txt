@@ -1,0 +1,4 @@
+1. powershell -ExecutionPolicy Bypass -File install.ps1
+2. 完全退出并重启 Cursor
+3. 新开一条对话测试（旧聊天不会叫主人）
+4. 可选：USER_RULES.txt 贴进 Settings → Rules → User Rules

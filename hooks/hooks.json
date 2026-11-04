@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      { "command": "node ./hooks/hook.js session-start" }
+    ],
+    "beforeSubmitPrompt": [
+      { "command": "node ./hooks/hook.js before-submit" }
+    ]
+  }
+}
